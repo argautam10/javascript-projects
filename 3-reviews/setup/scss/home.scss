@@ -1,0 +1,97 @@
+* {
+  font-family: "Roboto Slab", serif;
+  padding: 0;
+  margin: 0;
+}
+
+.wrapper {
+  height: auto;
+  margin: auto;
+  // margin-top: 4rem;
+
+  .heading {
+    // position: absolute;
+    // left: 41%;
+    // top: 1.5rem;
+    text-align: center;
+    color: red;
+
+    margin-top: 2rem;
+  }
+  .line {
+    width: 7%;
+    height: 4px;
+    background-color: red;
+    margin: auto;
+    margin-top: 0.5rem;
+  }
+  .container {
+    height: 100%;
+    width: 40%;
+    margin: auto;
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: center;
+    // border: 1px solid black;
+    box-shadow: 0 0 5px 6px lightgrey;
+    margin-top: 6rem;
+    position: relative;
+
+    div {
+      height: auto;
+      text-align: center;
+      // border: 1px solid black;
+      margin-bottom: 1rem;
+    }
+    .div1 {
+      width: 25%;
+      padding: 1rem;
+      img {
+        width: 100%;
+        height: 150px;
+        border-radius: 50%;
+        border-right: 7px solid rgb(0, 162, 255);
+        border-top: 7px solid rgb(0, 162, 255);
+        // border-left: 7px solid blue;
+      }
+    }
+    .div2 {
+      h3 {
+        color: blue;
+        font-weight: 400;
+      }
+    }
+    .div3 {
+      width: 90%;
+      p {
+        color: grey;
+      }
+    }
+    .div4 {
+      span {
+        padding: 1rem;
+        // transition: all 1s ease-in-out;
+      }
+      i {
+        color: green;
+        font-size: 1.8rem;
+        &:hover {
+          outline: auto;
+        }
+      }
+    }
+    .div5 {
+      button {
+        font-size: 1rem;
+        padding: 0.2rem 1rem 0.2rem;
+        font-weight: 700;
+        &:hover {
+          background-color: blue;
+          color: white;
+          transition: 0.2s ease-in-out;
+        }
+      }
+    }
+  }
+}

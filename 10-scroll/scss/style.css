@@ -1,0 +1,16 @@
+.body {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.container .image img {
+  width: 4em;
+  height: 4em;
+}
+
+.container .navigation-btn {
+  float: right;
+}
+/*# sourceMappingURL=style.css.map */

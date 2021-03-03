@@ -1,0 +1,49 @@
+* {
+  padding: 0;
+  margin: 0;
+  font-family: "Roboto Slab", serif;
+}
+
+.container {
+  margin: auto;
+  width: 40%;
+  height: 100vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: column wrap;
+          flex-flow: column wrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.container .div1 h1 {
+  font-size: 4rem;
+  color: blue;
+}
+
+.container .div2 h1 {
+  font-size: 6rem;
+}
+
+.container .div3 button {
+  padding: 0.3rem;
+  font-size: 1rem;
+  border: 2px solid black;
+  border-radius: 5px;
+  margin: 1rem;
+}
+
+.container .div3 button:hover {
+  background-color: black;
+  color: white;
+  -webkit-transition: all 0.4s ease-in-out;
+  transition: all 0.4s ease-in-out;
+}
+/*# sourceMappingURL=home.css.map */

@@ -1,0 +1,41 @@
+* {
+  padding: 0;
+  margin: 0;
+  font-family: "Roboto Slab", serif;
+}
+
+.container {
+  margin: auto;
+  width: 40%;
+  height: 100vh;
+  //   background-color: blue;
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: center;
+  align-items: center;
+  .div1 {
+    h1 {
+      font-size: 4rem;
+      color: blue;
+    }
+  }
+  .div2 {
+    h1 {
+      font-size: 6rem;
+    }
+  }
+  .div3 {
+    button {
+      padding: 0.3rem;
+      font-size: 1rem;
+      border: 2px solid black;
+      border-radius: 5px;
+      margin: 1rem;
+      &:hover {
+        background-color: black;
+        color: white;
+        transition: all 0.4s ease-in-out;
+      }
+    }
+  }
+}

@@ -1,0 +1,106 @@
+* {
+  font-family: "Roboto Slab", serif;
+  padding: 0;
+  margin: 0;
+}
+
+.wrapper {
+  height: auto;
+  margin: auto;
+}
+
+.wrapper .heading {
+  text-align: center;
+  color: red;
+  margin-top: 2rem;
+}
+
+.wrapper .line {
+  width: 7%;
+  height: 4px;
+  background-color: red;
+  margin: auto;
+  margin-top: 0.5rem;
+}
+
+.wrapper .container {
+  height: 100%;
+  width: 40%;
+  margin: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: column wrap;
+          flex-flow: column wrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-shadow: 0 0 5px 6px lightgrey;
+          box-shadow: 0 0 5px 6px lightgrey;
+  margin-top: 6rem;
+  position: relative;
+}
+
+.wrapper .container div {
+  height: auto;
+  text-align: center;
+  margin-bottom: 1rem;
+}
+
+.wrapper .container .div1 {
+  width: 25%;
+  padding: 1rem;
+}
+
+.wrapper .container .div1 img {
+  width: 100%;
+  height: 150px;
+  border-radius: 50%;
+  border-right: 7px solid #00a2ff;
+  border-top: 7px solid #00a2ff;
+}
+
+.wrapper .container .div2 h3 {
+  color: blue;
+  font-weight: 400;
+}
+
+.wrapper .container .div3 {
+  width: 90%;
+}
+
+.wrapper .container .div3 p {
+  color: grey;
+}
+
+.wrapper .container .div4 span {
+  padding: 1rem;
+}
+
+.wrapper .container .div4 i {
+  color: green;
+  font-size: 1.8rem;
+}
+
+.wrapper .container .div4 i:hover {
+  outline: auto;
+}
+
+.wrapper .container .div5 button {
+  font-size: 1rem;
+  padding: 0.2rem 1rem 0.2rem;
+  font-weight: 700;
+}
+
+.wrapper .container .div5 button:hover {
+  background-color: blue;
+  color: white;
+  -webkit-transition: 0.2s ease-in-out;
+  transition: 0.2s ease-in-out;
+}
+/*# sourceMappingURL=home.css.map */

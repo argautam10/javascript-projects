@@ -1,0 +1,98 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  background-color: rgba(0, 255, 255, 0.075);
+}
+
+.heading {
+  position: absolute;
+  top: 1rem;
+  left: 29.5%;
+}
+
+.heading i {
+  color: green;
+}
+
+.container {
+  width: 40%;
+  height: auto;
+  margin: 5rem auto;
+  position: relative;
+}
+
+.container .ask {
+  margin-bottom: 2rem;
+  background-color: white;
+  padding: 0.7rem;
+  border-radius: 12px;
+  position: relative;
+  -webkit-box-shadow: 0 0 8px 4px rgba(211, 211, 211, 0.527);
+          box-shadow: 0 0 8px 4px rgba(211, 211, 211, 0.527);
+}
+
+.container .ask button {
+  position: absolute;
+  top: 1rem;
+  right: 2rem;
+  -webkit-transition: all 0.4s ease-in-out;
+  transition: all 0.4s ease-in-out;
+  -webkit-transform: rotate(90deg);
+          transform: rotate(90deg);
+  background: transparent;
+  border: none;
+}
+
+.container .ask button #icon {
+  display: block;
+}
+
+.container .ask button #icon2 {
+  display: none;
+}
+
+.container .ask button i {
+  font-weight: 300;
+  font-size: 1.5rem;
+  color: orange;
+}
+
+.container .ask button:hover {
+  -webkit-transform: rotate(270deg);
+          transform: rotate(270deg);
+}
+
+.container .ask p {
+  display: none;
+  width: 100%;
+  -webkit-transition: all 1s ease-in-out;
+  transition: all 1s ease-in-out;
+}
+
+.container .ask .line {
+  width: 80%;
+  height: 2px;
+  background-color: orange;
+  margin: 0.4rem 0;
+  display: none;
+}
+
+.container .open .line {
+  display: block;
+}
+
+.container .open .info {
+  display: block;
+}
+
+.container .open button #icon {
+  display: none;
+}
+
+.container .open button #icon2 {
+  display: block;
+}
+/*# sourceMappingURL=home.css.map */

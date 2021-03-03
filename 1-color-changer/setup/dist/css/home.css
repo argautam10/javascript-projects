@@ -1,0 +1,80 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  font-family: "Roboto Slab", serif;
+}
+
+.navbar {
+  widows: 100%;
+  height: 2.5rem;
+}
+
+.navbar ul {
+  width: 100%;
+  height: 100%;
+  list-style: none;
+  float: right;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: row wrap;
+          flex-flow: row wrap;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.navbar ul li {
+  display: inline-block;
+}
+
+.navbar ul li a {
+  text-decoration: none;
+  color: black;
+}
+
+.navbar ul #list1 h3 {
+  color: #006eff;
+}
+
+.container {
+  width: 100vw;
+  height: 100vh;
+  text-align: center;
+}
+
+.container .hexdiv {
+  background-color: black;
+  padding: 1rem;
+  border-radius: 1rem;
+  position: absolute;
+  top: 40%;
+  left: 35%;
+}
+
+.container .hexdiv h1 {
+  color: white;
+  font-size: 30px;
+}
+
+.container button {
+  font-size: 1.5rem;
+  padding: 0.6rem;
+  border-radius: 6px;
+  border: none;
+  margin-top: 1rem;
+  background-color: purple;
+  color: white;
+  position: absolute;
+  top: 52%;
+  left: 49%;
+}
+/*# sourceMappingURL=home.css.map */

@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/home.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap"
+      rel="stylesheet"
+    />
+    <title>Video Player</title>
+  </head>
+  <body>
+    <div class="preloader">
+      <img src="./image/preloader.gif" alt="preloading" />
+    </div>
+    <header>
+      <video class="videoplayer" controls autoplay loop>
+        <source src="./video/video.mp4" type="video/mp4" />
+      </video>
+    </header>
+
+    <h1 class="heading">Video Project</h1>
+    <div class="toggleDiv">
+      <span>Play</span>
+      <span>Pause</span>
+      <div class="toggleBtn"></div>
+    </div>
+    <script
+      src="https://kit.fontawesome.com/b295722343.js"
+      crossorigin="anonymous"
+    ></script>
+    <script src="./js/main.js"></script>
+  </body>
+</html>
